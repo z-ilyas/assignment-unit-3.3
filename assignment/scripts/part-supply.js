@@ -18,8 +18,8 @@ console.log(supplyChanges[ 1 ]);
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
-supplyChanges.pop();
-console.log(11);
+let removedItem = supplyChanges.pop();
+console.log('Removed value is', removedItem);
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
 supplyChanges.push(25)
